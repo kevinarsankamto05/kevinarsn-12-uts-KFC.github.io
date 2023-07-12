@@ -1,0 +1,122 @@
+.body-login {
+  background: #c22536;
+}
+
+.layer-login {
+  background: white;
+  height: 100vh;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.content-login {
+  margin-top: 9.5rem;
+}
+
+.content-regis {
+  margin-top: 8rem;
+}
+
+.form-login {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid black;
+  background: transparent;
+}
+
+.btn-login {
+  background: #c22536;
+  color: black;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.5s ease-in-out;
+}
+
+.btn-login:hover {
+  background: rgba(194, 37, 54, 0.7);
+  color: rgb(255, 255, 255);
+}
+
+.img-login {
+  position: absolute;
+  width: 35rem;
+  top: 10rem;
+}
+
+nav {
+  background: #c22536;
+}
+
+.nav-link {
+  color: white;
+  transition: 0.7s ease-in-out;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.garis {
+  border-left: 1px solid white;
+}
+
+.harga {
+  background: rgba(194, 37, 54, 0.7);
+  color: black;
+  font-weight: bold;
+}
+
+.danger {
+  background: rgba(194, 37, 54, 0.7);
+  color: white;
+  transition: 0.5 ease-in-out;
+}
+
+.danger:hover {
+  background: rgba(194, 37, 54, 0.7);
+  color: black;
+}
+
+.tambah {
+  background: rgba(0, 71, 252, 0.7);
+  color: white;
+  transition: 0.5 ease-in-out;
+}
+
+.tambah:hover {
+  background: rgba(0, 71, 252, 0.4);
+  color: black;
+}
+
+.detail {
+  background: rgba(25, 162, 3, 0.7);
+  color: white;
+  transition: 0.5 ease-in-out;
+}
+
+.detail:hover {
+  background: rgba(25, 162, 3, 0.4);
+  color: black;
+}
+
+.card {
+  border: 1px solid #c22536;
+  height: 25rem;
+}
+
+.card-img-top {
+  transition: 0.7 ease-in-out;
+  height: 12.5rem;
+}
+
+.card:hover .card-img-top {
+  transform: scale(0.8);
+}
+
+.content {
+  display: flex;
+}
+
+.tb-1 {
+  width: 20%;
+}
